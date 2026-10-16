@@ -1,0 +1,85 @@
+/* =====================================================
+   TopBar Styles
+   ===================================================== */
+
+.topbar {
+  height: var(--topbar-height);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 var(--sp-8);
+  background: var(--bg-card);
+  border-bottom: 1px solid var(--border);
+  flex-shrink: 0;
+}
+
+.topbar-left {
+  display: flex;
+  align-items: baseline;
+  gap: var(--sp-3);
+}
+
+.topbar-title {
+  font-size: var(--text-lg);
+  font-weight: 700;
+  color: var(--text-heading);
+  letter-spacing: -0.02em;
+  line-height: 1;
+}
+
+.topbar-subtitle {
+  font-size: var(--text-sm);
+  color: var(--text-muted);
+  font-weight: 400;
+}
+
+.topbar-right {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-3);
+}
+
+/* ── Health Badge ── */
+.health-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--sp-2);
+  padding: var(--sp-1) var(--sp-3);
+  border-radius: var(--radius-full);
+  font-size: var(--text-xs);
+  font-weight: 500;
+  border: 1px solid;
+  transition: all var(--duration) var(--ease-out);
+}
+
+.health-badge.online {
+  background: var(--color-verified-bg);
+  border-color: var(--color-verified-border);
+  color: var(--color-verified);
+}
+
+.health-badge.offline {
+  background: var(--color-unsupported-bg);
+  border-color: var(--color-unsupported-border);
+  color: var(--color-unsupported);
+}
+
+.health-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.health-badge.online .health-dot {
+  background: var(--color-verified);
+  animation: pulse 2.5s infinite;
+}
+
+.health-badge.offline .health-dot {
+  background: var(--color-unsupported);
+}
+
+.health-label {
+  white-space: nowrap;
+}

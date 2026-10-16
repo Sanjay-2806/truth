@@ -1,0 +1,54 @@
+/* =====================================================
+   Card Styles
+   ===================================================== */
+
+.card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-sm);
+  transition: box-shadow var(--duration) var(--ease-out);
+}
+
+.card:hover {
+  box-shadow: var(--shadow-md);
+}
+
+.card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--sp-4) var(--sp-5);
+  border-bottom: 1px solid var(--border);
+  gap: var(--sp-3);
+  flex-wrap: wrap;
+}
+
+.card-header-left {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-2);
+}
+
+.card-title {
+  font-size: var(--text-sm);
+  font-weight: 600;
+  color: var(--text-heading);
+  letter-spacing: -0.01em;
+}
+
+.card-icon {
+  color: var(--text-muted);
+  display: flex;
+  align-items: center;
+}
+
+.card-header-right {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-2);
+}
+
+.card-body {
+  padding: var(--sp-5);
+}

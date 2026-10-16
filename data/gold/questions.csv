@@ -1,0 +1,31 @@
+question_id,split,category,question,is_answerable,relevant_clause,expected_decision,expected_claims_count
+Q01,dev,arrears,What is the consequence if a student has 45 or more credits in arrear backlog courses?,true,Clause 6.4.4,RELEASE,3
+Q02,dev,attendance,What is the minimum overall attendance percentage required to appear for end semester examinations?,true,Clause 7.1,RELEASE,2
+Q03,dev,attendance,Can a student with 68% attendance write the examinations on medical grounds?,true,Clause 7.2,RELEASE,3
+Q04,dev,attendance,What happens if a student has less than 65% attendance in a semester?,true,Clause 7.3,RELEASE,2
+Q05,dev,evaluation,What are the minimum marks required to pass a theory course in end semester examination?,true,Clause 14.1,RELEASE,3
+Q06,dev,degree,What are the requirements for securing First Class with Distinction for regular B.E./B.Tech. students?,true,Clause 15.4,RELEASE,4
+Q07,dev,arrears,Can a student enroll for 8th semester courses if they have 50 credits in arrears?,true,Clause 6.4.4,RELEASE,2
+Q08,dev,unanswerable,What is the exact monthly stipend amount paid to undergraduate students during internships?,false,None,ABSTAIN,0
+Q09,dev,unanswerable,What is the procedure to apply for a hostel room transfer during odd semesters?,false,None,ABSTAIN,0
+Q10,dev,break_of_study,What is the maximum duration permitted for an authorized break of study?,true,Clause 18.1,RELEASE,2
+Q11,dev,withdrawal,What is the deadline for submitting an application for withdrawal from end semester examination?,true,Clause 17.2,RELEASE,2
+Q12,dev,grading,What letter grade is awarded for marks between 91 and 100 in absolute grading?,true,Clause 15.2,RELEASE,2
+Q13,dev,unanswerable,What is the fee structure for bus transportation to Chennai central station?,false,None,ABSTAIN,0
+Q14,dev,credits,How many credits are assigned to one lecture period and one laboratory period per week?,true,Clause 4.5,RELEASE,2
+Q15,dev,malpractice,What action is taken if a student indulges in malpractice during an examination?,true,Clause 13.4,RELEASE,2
+Q16,test,arrears,If a student has 46 credits of arrears in semester V can they enroll for semester VI courses?,true,Clause 6.4.4,RELEASE,3
+Q17,test,attendance,Under what specific conditions is attendance between 65% and 74% condoned?,true,Clause 7.2,RELEASE,3
+Q18,test,attendance,Are students with 60% attendance eligible to write semester examinations with medical certificate?,true,Clause 7.3,RELEASE,2
+Q19,test,degree,What is the minimum CGPA required to qualify for First Class in the B.E. degree?,true,Clause 15.4,RELEASE,2
+Q20,test,unanswerable,What is the scholarship percentage for students securing above 95% in high school board exams?,false,None,ABSTAIN,0
+Q21,test,unanswerable,What is the mess menu schedule for vegetarian students on weekends?,false,None,ABSTAIN,0
+Q22,test,reappearance,Can a student re-register for a course if they fail in continuous internal assessment?,true,Clause 6.5.1,RELEASE,2
+Q23,test,break_of_study,Can a student take a break of study for two full academic years continuously?,true,Clause 18.1,RELEASE,2
+Q24,test,duration,What is the maximum time allowed for completion of a 4-year B.E. degree programme?,true,Clause 5.4,RELEASE,2
+Q25,test,unanswerable,What brand of laptop is distributed to first year computer science students?,false,None,ABSTAIN,0
+Q26,test,evaluation,How are marks distributed between internal assessment and end semester examination for theory courses?,true,Clause 11.1,RELEASE,2
+Q27,test,fast_track,Can a student drop elective courses in final semester if they earned surplus online credits?,true,Clause 6.6.2,RELEASE,2
+Q28,test,review,Within how many days after result publication can a student apply for review or photocopy of answer script?,true,Clause 16.2,RELEASE,2
+Q29,test,unanswerable,What are the campus gate closing timings for evening sports activities?,false,None,ABSTAIN,0
+Q30,test,degree,What are the criteria for lateral entry students to be awarded First Class with Distinction?,true,Clause 15.4,RELEASE,3
